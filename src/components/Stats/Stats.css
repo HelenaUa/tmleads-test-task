@@ -1,0 +1,58 @@
+.stats__trapezoid {
+    width: 70%;
+    height: 30px;
+    background: #fff;
+    clip-path: polygon(0 0, 70% 0 , 80% 100%, 0% 100%);
+
+    @media screen and (min-width: 1200px) {
+        width: 60%;
+        height: 60px;
+    }
+}
+
+.stats {
+    background-color: #fff;
+}
+
+.stats__container {
+    width: 100%;
+    height: 368px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+    @media screen and (min-width: 1200px) {
+        height: 220px;
+    }
+}
+
+.stats__title {
+    font-size: 28px;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 44px;
+    }
+
+}
+
+.stats__text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.stats__name {
+    text-transform: uppercase;
+}
+
+.stats__figure {
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #6A54FF;
+
+    @media screen and (min-width: 1200px) {
+       font-size: 60px;
+    }
+}

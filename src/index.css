@@ -1,21 +1,73 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --primary-color: #57E1FF;
+  --text-color: #030718;
+  --background-color: #030718;
+  --secondary-bg: #6A54FF;
 }
 
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: var(--background-color);
+  /* color: var(--text-color); */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Links, Buttons */
 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+span {
+  color:#fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+
+/* ===== Utility classes (зручно для адаптиву/повторного використання) ===== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* a {
   font-weight: 500;
-  color: #646cff;
+  color: red;
   text-decoration: inherit;
 }
 a:hover {
@@ -23,6 +75,7 @@ a:hover {
 }
 
 body {
+  font-family: "IBM Plex Sans", sans-serif;
   margin: 0;
   display: flex;
   place-items: center;
@@ -65,4 +118,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
