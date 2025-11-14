@@ -1,0 +1,77 @@
+.card {
+    position: relative;
+    min-width: 299px;
+    height: 208px;
+    background: #6A54FF;
+    border-radius: 6px;
+    padding: 20px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background: var(--background-color);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.card__header {
+    margin-bottom: 40px;
+}
+
+.card__logo {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 150px;
+    opacity: 0.25;
+    pointer-events: none;
+}
+
+.card__logo img {
+    width: 100%;
+}
+
+.card__pair {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card__time {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.card__profit-block {
+    margin-bottom: 8px;
+}
+
+.card__profit-title {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.card__profit {
+    font-size: 28px;
+    font-weight: 700;
+    color: #35FF9E;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.card__target {
+    opacity: 0.9;
+}
+
+.card__date {
+    opacity: 0.7;
+}

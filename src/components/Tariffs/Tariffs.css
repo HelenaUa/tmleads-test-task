@@ -1,0 +1,166 @@
+.tariffs__container {
+    height: 1184px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+
+    @media screen and (min-width: 1200px) {
+        height: 940px;
+    }
+}
+
+.tariffs__title {
+    color: #fff;
+    font-size: 28px;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 44px;
+    }
+}
+
+.tariffs__wrapper-btn {
+    width: 413px;
+    height: 52px;
+    color: #57E1FF;
+    background-color: #6A54FF;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 40px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.tariffs__btn {
+    width: 201px;
+    height: 44px;
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+}
+
+.tariffs__box-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+    }
+}
+
+.tariffs__box-standart {
+    width: 413px;
+    height: 556px;
+    border: 1px solid #6A54FF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 24px 24px 24px;
+}
+
+.tariffs__title {
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.tariffs__ul {
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 160px;
+}
+
+.tariffs__li {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    padding-left: 18px;
+}
+
+.tariffs__li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tariffs__wrapper-tariff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tariffs__price {
+    font-weight: 500;
+    font-size: 35px;
+    color: #fff;
+    position: relative;
+}
+
+.tariffs__price::after {
+    content: "-35%";
+    position: absolute;
+    right: -1;
+    color: #35FF9E;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tariffs__btn-price {
+    width: 128px;
+    height: 36px;
+    border-radius: 4px;
+    border: none;
+    background-color: darkslategrey;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+}
+
+.tariffs__main-btn {
+    width: 365px;
+    height: 52px;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--primary-color);
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.tariffs__sm {
+    color: #030718;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.tariffs__box-vip {
+    width: 413px;
+    height: 556px;
+    background-color: #6A54FF;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 24px 24px 24px;
+}
+
+
+
+
