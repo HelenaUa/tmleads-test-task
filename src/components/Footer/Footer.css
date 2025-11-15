@@ -33,7 +33,7 @@
     background: #fff;
 
     @media screen and (min-width: 1200px) {
-        left: 140%;
+        left: 120%;
         top: 0;
         width: 1px;
         height: 348px;
