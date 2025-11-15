@@ -15,9 +15,7 @@
 .header__nav {
     display: none;
     gap: 24px;
-    margin-left: 9%;
-    margin-right: 3%;
-
+    
     @media screen and (min-width: 1200px) {
         display: flex;
     }
