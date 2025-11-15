@@ -5,7 +5,7 @@ const Stats = () => {
   return (
     <>
         <div className="stats__trapezoid"></div>
-            <section className="stats">
+            <section className="stats" id="stats">
                 <div className="container stats__container">
                     <div className="stats__wrapper-title">
                         <h2 className="stats__title">Цифры</h2> 

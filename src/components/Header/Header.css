@@ -77,7 +77,7 @@
     gap: 20px;
     background-color: #030718;
     padding: 20px;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 70px;
     width: 100%;

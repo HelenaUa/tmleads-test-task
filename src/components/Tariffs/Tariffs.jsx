@@ -3,7 +3,7 @@ import "./Tariffs.css"
 
 const Tariffs = () => {
   return (
-    <section className="tariffs">
+    <section className="tariffs" id="tariffs">
         <div className="container tariffs__container">
             <h2 className="tariffs__title">тарифы</h2> 
                 <div className="tariffs__wrapper-btn">
@@ -11,7 +11,7 @@ const Tariffs = () => {
                 </div>
                 <div className="tariffs__box-card">
                     <div className="tariffs__box-standart">
-                        <h3 className="tariffs__title">STANDART</h3>
+                        <h3 className="tariffs__title-st">STANDART</h3>
                         <ul className="tariffs__ul">
                             <li className="tariffs__li">Ручной трейдинг</li>
                             <li className="tariffs__li">Автоматическое или полуавтоматическое копирование сделок</li>
@@ -26,8 +26,8 @@ const Tariffs = () => {
                     </div>
 
                     <div className="tariffs__box-vip">
-                        <h3 className="tariffs__title">VIP</h3>
-                        <ul className="tariffs__ul">
+                        <h3 className="tariffs__title-st">VIP</h3>
+                        <ul className="tariffs__ul tariffs__ul-vip">
                             <li className="tariffs__li">Ручной трейдинг</li>
                             <li className="tariffs__li">Автоматическое или полуавтоматическое копирование сделок</li>
                             <li className="tariffs__li">Личный кабинет со статистикой</li>

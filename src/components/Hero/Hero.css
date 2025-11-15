@@ -96,6 +96,10 @@ h1 {
     }
 }
 
+.hero__span {
+    color: #fff;
+}
+
 .hero__img {
     order: 1;
 

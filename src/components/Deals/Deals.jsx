@@ -35,7 +35,7 @@ const dealsData = [
 
 const Deals = () => {
     return (
-        <section className="deals">
+        <section className="deals" id="deals">
             <div className="container deals__container"> 
                 <div>
                     <h2 className="deals__title">Прошедшие сделки</h2> 

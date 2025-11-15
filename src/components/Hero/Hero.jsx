@@ -4,7 +4,7 @@ import HeroImg from "../../assets/images/hero-d.png"
 
 const Hero = () => {
     return (
-        <section className="hero">
+        <section className="hero" id="hero">
             <div className="container hero__container">
                 <div className="hero__wrapper">
                     <h1>
@@ -15,7 +15,7 @@ const Hero = () => {
                         <input className="hero__input" type="email" id="hero" name="hero" placeholder="Ваш e–mail" />
                         <button className="hero__btn">НАЧАТЬ</button>
                     </div>
-                    <span>5 дней бесплатного пользования</span>
+                    <span className="hero__span">5 дней бесплатного пользования</span>
                 </div>
                 <div className="hero__img">
                     <img src={HeroImg} alt="hero" />

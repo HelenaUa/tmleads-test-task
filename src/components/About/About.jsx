@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className="stats__trapezoid"></div>
-        <section className="about">
+        <section className="about" id="about">
             <div className="container about__container">
                 <div>
                     <h2 className="about__title">О компании</h2> 

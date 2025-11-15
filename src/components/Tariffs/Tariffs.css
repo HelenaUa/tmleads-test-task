@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 20px;
     justify-content: center;
+    padding-top: 60px;
 
     @media screen and (min-width: 1200px) {
         height: 940px;
@@ -20,31 +21,42 @@
 }
 
 .tariffs__wrapper-btn {
-    width: 413px;
+    width: 343px;
     height: 52px;
     color: #57E1FF;
     background-color: #6A54FF;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 4px;
-    padding-right: 40px;
+    padding-right: 45px;
     border-radius: 4px;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+        width: 413px;
+        padding-right: 40px;
+        font-size: 24px;
+    }
 }
 
 .tariffs__btn {
-    width: 201px;
+    width: 167px;
     height: 44px;
     color: #000;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     background-color: var(--primary-color);
     border: none;
     border-radius: 4px;
+
+    @media screen and (min-width: 1200px) {
+        width: 201px;
+        font-size: 24px;
+    }
 }
 
 .tariffs__box-card {
@@ -58,16 +70,21 @@
 }
 
 .tariffs__box-standart {
-    width: 413px;
-    height: 556px;
+    width: 343px;
+    height: 420px;
     border: 1px solid #6A54FF;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     padding: 30px 24px 24px 24px;
+
+    @media screen and (min-width: 1200px) {
+        width: 413px;
+        height: 556px;
+    }
 }
 
-.tariffs__title {
+.tariffs__title-st {
     font-weight: 500;
     font-size: 32px;
     color: #fff;
@@ -75,11 +92,16 @@
 }
 
 .tariffs__ul {
-    width: 345px;
+    width: 265px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 160px;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+        width: 345px;
+        margin-bottom: 160px;     
+    }
 }
 
 .tariffs__li {
@@ -133,7 +155,7 @@
 }
 
 .tariffs__main-btn {
-    width: 365px;
+    width: 295px;
     height: 52px;
     border-radius: 3px;
     border: none;
@@ -142,6 +164,10 @@
     font-size: 16px;
     text-transform: uppercase;
     position: relative;
+
+    @media screen and (min-width: 1200px) {
+        width: 365px;
+    }
 }
 
 .tariffs__sm {
@@ -151,15 +177,29 @@
 }
 
 .tariffs__box-vip {
-    width: 413px;
-    height: 556px;
+    width: 343px;
+    height: 508px;
     background-color: #6A54FF;
     border: none;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     padding: 30px 24px 24px 24px;
+
+    @media screen and (min-width: 1200px) {
+        width: 413px;
+        height: 556px;        
+    }
 }
+
+.tariffs__ul-vip {
+    margin-bottom: 35px;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 95px;
+    }
+}
+
 
 
 
