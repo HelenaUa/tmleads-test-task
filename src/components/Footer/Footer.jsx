@@ -9,7 +9,7 @@ const Footer = () => {
       
           <div className="footer__left">
               <div><p className="footer__text">Быстрая навигация</p></div>
-              <div><nav className="header__nav footer__nav">
+              <div><nav className="footer__nav">
                   <a className="header__link" href="#stats">Цифры</a>
                   <a className="header__link" href="#deals">Сделки онлайн</a>
                   <a className="header__link" href="#about">о компании</a>

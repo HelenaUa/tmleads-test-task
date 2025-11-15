@@ -107,3 +107,34 @@ h1 {
         order: 2;
     }
 }
+
+.hero__img img {
+    opacity: 0;
+    animation: fadeFloat 1.3s ease forwards, float 4s ease-in-out infinite 1.3s;
+}
+
+@keyframes fadeFloat {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
